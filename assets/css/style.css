@@ -16,7 +16,7 @@ header {
     background-color: black;
 }
 header img {
-    margin: 40px 0;
+    margin: 70px 0;
 }
 
 /*main*/
@@ -25,7 +25,7 @@ header img {
     background-image: url(../images/banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 30px;
+    padding: 60px 30px;
 }
 h1, h3 {
     color: #25a2c3;
@@ -48,14 +48,14 @@ button {
     border-radius: 50%;
 }
 #benefit {
-    padding: 30px;
+    padding: 60px 30px;
 }
 #quarto {
     background-color: #e22d0e;
     color: white;
 }
 #testimonianza {
-    padding: 30px;
+    padding: 60px 30px;
 }
 h2 {
     font-family: 'Montserrat', sans-serif;
@@ -83,6 +83,7 @@ figcaption {
 
 footer {
     background-color: #25a2c3;
+    padding: 60px 30px;
 }
 footer a {
     color: #c8e7f0;
