@@ -82,8 +82,9 @@ figcaption {
     margin-top: 90px;
     border: solid #dee1e3;
     width: 30%;
-    height: 55vh;
+    height: 60vh;
     float: left;
+    text-align: center;
 }
 .card img {
     width: 100%;
@@ -96,13 +97,18 @@ figcaption {
 
 footer {
     background-color: #25a2c3;
-    padding: 60px 30px;
+    padding: 50px 30px;
+}
+footer h2 {
+    font-size: 2em;
 }
 footer a {
     color: #c8e7f0;
+    font-size: 1em;
 }
 footer p {
     color: #c8e7f0;
+    font-size: 1em;
 }
 i {
     margin-right: 20px;
@@ -111,6 +117,6 @@ i {
     margin: 0 40%;
 }
 hr {
-    color: #c8e7f0;
+    width: 20vw;
 }
 
