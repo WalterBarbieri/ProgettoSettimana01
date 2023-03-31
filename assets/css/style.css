@@ -12,9 +12,6 @@ body {
 
 /*header*/
 
-#primo{
-    margin-bottom: -23px;
-}
 header {
     background-color: black;
 }
@@ -26,9 +23,11 @@ header img {
 
 #corso {
     background-image: url(../images/banner.jpg);
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px;
 }
-h1 {
+h1, h3 {
     color: #25a2c3;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5;
@@ -37,10 +36,61 @@ button {
     background-color: #f04c2f;
     border: none;
     padding: 15px;
-    border-radius: 2px;        
+    border-radius: 2px;
+    font-size: 1.5em;        
 }
 #corso a {
     color: white;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
 }
+#terzo img {
+    border-radius: 50%;
+}
+#benefit {
+    padding: 30px;
+}
+#quarto {
+    background-color: #e22d0e;
+    color: white;
+}
+#testimonianza {
+    padding: 30px;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    color: white;
+}
+figcaption {
+    font-size: 1.5em;
+}
+#ceo {
+    font-size: 0.5em;
+}
+.card {
+    margin: 50px;
+    border: solid #dee1e3;
+}
+.card img {
+    width: 100%;
+}
+.card p {
+    padding: 0 50px;
+}
+
+/*footer*/
+
+footer {
+    background-color: #25a2c3;
+}
+footer a {
+    color: #c8e7f0;
+}
+footer p {
+    color: #c8e7f0;
+}
+i {
+    margin-right: 20px;
+}
+
